@@ -1,0 +1,32 @@
+{
+  "name": "solanakit",
+  "version": "1.0.0",
+  "description": "🛠️ A comprehensive toolkit for Solana blockchain development from the command line.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplysabir/solanakit.git"
+  },
+  "keywords": [
+    "solana"
+  ],
+  "author": "Sabir Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simplysabir/solanakit/issues"
+  },
+  "homepage": "https://github.com/simplysabir/solanakit#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.6.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.2.7",
+    "nanospinner": "^1.1.0"
+  }
+}
