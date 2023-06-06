@@ -8,6 +8,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build"
   },
+  "bin": {
+    "solanakit" : "./index.js",
+    "cnft" : "./commands/cnft.js",
+    "faucet" : "./commands/faucet.js",
+    "learn" : "./commands/learn.js",
+    "help" : "./commands/help.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simplysabir/solanakit.git"
