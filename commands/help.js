@@ -15,13 +15,13 @@ async function help(){
     rainbowTitle.stop();
 
     console.log(`
-    ${chalk.bgYellow('cnft')} : "For getting all the resources related to compressed NFTs.",
+    ${chalk.bgYellow(' cnft ')} : For getting all the resources related to compressed NFTs.
 
-    ${chalk.bgYellow('faucet')} : "For getting all the resources related to getting devnet faucet.",
+    ${chalk.bgYellow(' faucet ')} : For getting all the resources related to getting devnet faucet.
 
-    ${chalk.bgYellow('learn')} : "For getting all the resources to learn solana development. ",
+    ${chalk.bgYellow(' learn ')} : For getting all the resources to learn solana development. 
 
-    ${chalk.bgRedBright('note')} : "Type commands like this ${chalk.red('solanakit command_name')}",
+    ${chalk.bgRedBright(' note ')} : Type commands like this ${chalk.red('solanakit command_name')}
     `)
 }
 
